@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package format="2">
+  <name>sensor_msgs_util</name>
+  <version>1.12.5</version>
+  <description>
+    Utility classes/functions for the ROS 2 sensor_msgs package
+  </description>
+  <maintainer email="tfoote@osrfoundation.org">Tully Foote</maintainer>
+  <license>BSD</license>
+
+  <url>http://ros.org/wiki/sensor_msgs</url>
+
+  <buildtool_depend>ament</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+  <export>
+    <architecture_independent />
+    <build_type>ament_cmake</build_type>
+  </export>
+
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  </package>
